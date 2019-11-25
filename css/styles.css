@@ -1,4 +1,8 @@
-/* Glovales*/
+
+body{
+    font-family: lato, sans-serif;
+}
+/* Globales*/
 .contenedor{
     max-width: 1200px;
     margin: auto;
@@ -19,6 +23,7 @@
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
+    align-items: center;
 }
 
 .navegacion a{
