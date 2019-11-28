@@ -5,6 +5,7 @@ html{
 body{
     font-family: lato, sans-serif;
     font-size: 1.6rem;
+    line-height: 2;
 }
 /* Globales*/
 .contenedor{
@@ -87,11 +88,23 @@ h4{
     margin: 0;
 }
 
+.encabezado-nosotros{
+    font-weight: 300;
+    text-align: center;
+}
+
 /*** Iconos Nosotros ***/
 .iconos-nosotros{
     display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
 
 .icono{
-    flex-basis: 33.3%;
+    /* flex-basis = width*/
+    flex-basis: calc(33.3% - 1rem); /* deja un espacio de 1rem a cada lado contenedor*/
+}
+
+.icono h3{
+    text-transform: uppercase;
 }
