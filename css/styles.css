@@ -8,6 +8,9 @@ body{
     line-height: 2;
 }
 /* Globales*/
+img{
+    max-width: 100%; /* para que todas las imagenes del proyecto sean responsivas*/
+}
 .contenedor{
     max-width: 120rem; /*  == 1200px */
     margin: auto;
@@ -34,6 +37,16 @@ h4{
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
+.fw-300{
+    /* grosor de letra*/
+    font-weight: 300;
+}
+
+.centrar-texto{
+    text-align: center;
+}
+
 
 /************ header ***********/
 .site-header.inicio{
@@ -88,10 +101,6 @@ h4{
     margin: 0;
 }
 
-.encabezado-nosotros{
-    font-weight: 300;
-    text-align: center;
-}
 
 /*** Iconos Nosotros ***/
 .iconos-nosotros{
@@ -107,4 +116,16 @@ h4{
 
 .icono h3{
     text-transform: uppercase;
+}
+
+/** anuncios **/
+.contenedor-anuncios{
+    display:flex;
+    justify-content: space-between;
+}
+
+.anuncio{
+    flex-basis: calc(33.3% - 1rem);
+    border: 1px solid #b5b5b5;
+    background-color: #b5b5b5;
 }
