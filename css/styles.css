@@ -175,7 +175,42 @@ h4{
     font-weight: 700;
 }
 
+/* Alinea boton ala Derecha*/
 .ver-todas{
     display: flex;
     justify-content: flex-end;
+}
+
+.iconos-caracteristicas{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iconos-caracteristicas li{
+    display: flex;
+   /* flex: 1;*/
+}
+
+.iconos-caracteristicas img{
+    margin-right: 2rem;
+}
+
+.imagen-contacto{
+    background-image: url(../img/encuentra.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+}
+
+.contenido-contacto{
+    flex: 1;
+    color: white;
+}
+
+.contenido-contacto p{
+    font-size: 1.8rem;
 }
