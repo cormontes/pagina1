@@ -338,3 +338,7 @@ h4{
     justify-content: space-between; /*Alinea Horizontalmente*/
     align-items: center; /*Alinea verticalmente*/
 }
+/** Formulario contacto **/
+label{
+    display: block; /** El objeto toma todo el espacio disponible**/
+}
