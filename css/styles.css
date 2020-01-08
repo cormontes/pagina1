@@ -340,5 +340,16 @@ h4{
 }
 /** Formulario contacto **/
 label{
-    display: block; /** El objeto toma todo el espacio disponible**/
+    display: block; /** El objet(Label) toma todo el espacio disponible**/
+}
+input[type="text"],
+     [type="tel"],
+     [type="email"]{
+    padding: 1rem;
+    background-color: #e1e1e1;
+    display: block;
+    width: 100%;
+    margin-bottom:2rem;
+    border: none;
+    border-radius: 1rem;
 }
