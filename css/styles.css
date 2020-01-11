@@ -342,9 +342,8 @@ h4{
 label{
     display: block; /** El objet(Label) toma todo el espacio disponible**/
 }
-input[type="text"],
-     [type="tel"],
-     [type="email"]{
+/** Selecciona todos los input excepto el submit**/
+input:not([type="submit"]){
     padding: 1rem;
     background-color: #e1e1e1;
     display: block;
